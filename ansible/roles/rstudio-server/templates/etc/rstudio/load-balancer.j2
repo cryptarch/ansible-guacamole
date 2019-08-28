@@ -1,9 +1,0 @@
-# {{ ansible_managed }}
-
-[config]
-balancer={{ rstudio_server_load_balancer }}
-
-[nodes]
-{% for node in rstudio_server_load_balancer_nodes %}
-{{ node }}
-{% endfor %}

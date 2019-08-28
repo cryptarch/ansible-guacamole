@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: cloud
   become: yes
   gather_facts: yes
 
@@ -13,10 +13,6 @@
     - x2go-server
     - guacamole
     - tigervncserver
-    - r
-    - rstudio
-    - rstudio-server
-    - shiny-server
     - nginx
     - certbot
     - config

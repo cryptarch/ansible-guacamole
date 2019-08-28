@@ -1,6 +1,0 @@
-# handlers file for shiny-server
----
-- name: restart shiny-server
-  service:
-    name: shiny-server
-    state: restarted
