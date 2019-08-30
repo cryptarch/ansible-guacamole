@@ -1,0 +1,5 @@
+---
+- name: ensure authorised group exists
+  group:
+    name: "{{ guacamole_access_group }}"
+    state: present

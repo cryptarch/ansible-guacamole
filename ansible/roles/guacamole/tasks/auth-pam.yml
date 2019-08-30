@@ -15,8 +15,8 @@
   notify: restart tomcat
 
 - name: Install Guacamole PAM auth config
-  copy:
-    src: files/auth-pam/unix-user-mapping.xml
+  template:
+    src: "unix-user-mapping.xml.j2"
     dest: "{{ guacamole_home }}/unix-user-mapping.xml"
   notify: restart tomcat
 

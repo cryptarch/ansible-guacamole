@@ -4,6 +4,8 @@ facts:
 
 locale: en_AU.UTF-8
 
+guacamole_access_group: rdp
+
 nginx_package_name: nginx-extras
 nginx_remove_default_vhost: true
 nginx_vhosts:
