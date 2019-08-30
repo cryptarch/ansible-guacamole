@@ -8,7 +8,7 @@
 # errors with any file manager, so we simply move it to /tmp out of the way
 - name: thinclient_drives fix
   lineinfile:
-    path: /etc/xrdp/sesman.ini
+    name: /etc/xrdp/sesman.ini
     regexp: '^FuseMountName=thinclient_drives'
     line: 'FuseMountName=/tmp/thinclient_drives'
 
