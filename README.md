@@ -4,6 +4,8 @@ This project includes scripts and an Ansible playbook to set up [Apache Guacamol
 
 It started as a fork of the [NeCTAR Research Cloud's RStudio packer image](https://github.com/NeCTAR-RC/packer-rstudio), with the RStudio elements removed.
 
+It is under an Apache licence; see [`LICENSE.md`](./LICENSE.md) for more information.
+
 Usage
 ----
 
