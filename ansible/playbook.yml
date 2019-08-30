@@ -10,9 +10,7 @@
     - default_user
     - setup
     - xfce4-desktop
-    - x2go-server
     - guacamole
-    - tigervncserver
     - nginx
     - certbot
     - config
